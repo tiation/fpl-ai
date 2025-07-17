@@ -4,6 +4,10 @@ Dep La is an AI system built to predict [Fantasy Premier League](https://fantasy
 > [!NOTE]
 > Dep La is live for the 2024-25 season! Keep track of its performance [here](https://fantasy.premierleague.com/entry/3291882/event/1). This will its first season of FPL, so if it flops, please be kind :)
 
+## 📸 Screenshots
+
+![Screenshot Placeholder](./screenshots/screenshot-placeholder.png)
+
 ## Approach
 There are four main steps Dep La uses to optimize a team: 
 
