@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiation Fantasy Premier League AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #fff, #a8edea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 1rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 1rem;
+            color: #a8edea;
+        }
+        
+        .screenshot {
+            text-align: center;
+            margin: 3rem 0;
+        }
+        
+        .screenshot img {
+            max-width: 100%;
+            border-radius: 1rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .cta {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #a8edea, #fed6e3);
+            color: #333;
+            text-decoration: none;
+            border-radius: 2rem;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚽ Tiation Fantasy Premier League AI</h1>
+            <p>AI-powered Fantasy Premier League assistant for optimal team management and predictions</p>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>🤖 AI-Powered Predictions</h3>
+                <p>Advanced machine learning algorithms analyze player performance, team form, and historical data to provide accurate point predictions for each gameweek.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📊 Data-Driven Insights</h3>
+                <p>Comprehensive analysis of player statistics, fixtures, and performance metrics to help you make informed transfer decisions.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🎯 Team Optimization</h3>
+                <p>Intelligent suggestions for team selection, captaincy choices, and transfer recommendations based on predicted returns.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📈 Performance Tracking</h3>
+                <p>Track your team's performance and compare it against AI recommendations to continuously improve your FPL strategy.</p>
+            </div>
+        </div>
+        
+        <div class="screenshot">
+            <img src="../screenshots/screenshot-placeholder.png" alt="Tiation Fantasy Premier League AI Interface">
+        </div>
+        
+        <div class="cta">
+            <a href="https://github.com/tiation/tiation-fantasy-premier-league" class="btn">
+                View on GitHub
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Built with ❤️ by <a href="https://github.com/tiation" style="color: #a8edea;">Tiation</a></p>
+        </div>
+    </div>
+</body>
+</html>
